@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/job-filtering-react/static/js/main.f9b76f43.chunk.js",
+    "main.js.map": "/job-filtering-react/static/js/main.f9b76f43.chunk.js.map",
+    "runtime-main.js": "/job-filtering-react/static/js/runtime-main.70cc2643.js",
+    "runtime-main.js.map": "/job-filtering-react/static/js/runtime-main.70cc2643.js.map",
+    "static/css/2.26afba56.chunk.css": "/job-filtering-react/static/css/2.26afba56.chunk.css",
+    "static/js/2.65bbd13e.chunk.js": "/job-filtering-react/static/js/2.65bbd13e.chunk.js",
+    "static/js/2.65bbd13e.chunk.js.map": "/job-filtering-react/static/js/2.65bbd13e.chunk.js.map",
+    "index.html": "/job-filtering-react/index.html",
+    "static/css/2.26afba56.chunk.css.map": "/job-filtering-react/static/css/2.26afba56.chunk.css.map",
+    "static/js/2.65bbd13e.chunk.js.LICENSE.txt": "/job-filtering-react/static/js/2.65bbd13e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70cc2643.js",
+    "static/css/2.26afba56.chunk.css",
+    "static/js/2.65bbd13e.chunk.js",
+    "static/js/main.f9b76f43.chunk.js"
+  ]
+}
