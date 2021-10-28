@@ -1,0 +1,66 @@
+.jobs{
+    max-width: 75%;
+    flex: 75%;
+    background-color: $white;
+    @include clearfix;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+    @include respond-to(medium){
+        max-width:100%;
+        flex: 100%;
+        margin: auto;
+    }
+    &__add{
+        margin: 1rem;
+        border-radius: 1rem;
+        text-align: center;
+        cursor: pointer;
+        width:10rem;
+        height: 3rem;
+        background-color: $purple;
+        color: $white;
+        border: none;
+        outline: none;
+    }
+    &__count{
+        width: 100%;
+        flex: 100%;
+        border: 0.1rem solid $light-gray;
+        padding: 1rem;
+    }
+    &__job{
+        max-width: 50%;
+        flex: 50%;
+        border: 0.1rem solid $light-gray;
+        border-left: 0.4rem solid $purple;
+        padding: 2rem;
+        @include respond-to(small){
+            max-width: 100%;
+            flex: 100%;
+        }
+
+        > div{
+            padding-top: 0.5rem;
+        }
+        &--title{
+            font-weight: bold;
+            color: $blue;
+            text-decoration: none;
+        }
+        &--location{
+            .fa{
+                color: $gray;
+            }
+        }
+
+    }
+    &__edit{
+        cursor: pointer;
+        float: right;
+        color: $purple;
+    }
+    .faTrash{
+        color: $purple;
+    }
+}
