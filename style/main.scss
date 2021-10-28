@@ -1,0 +1,25 @@
+//abstract
+@import "abstracts/_variables";
+@import "abstracts/_mixins";
+
+//base
+@import "base/_reset.scss";
+
+
+//component
+@import "components/_jobSearch.scss";
+@import "components/_jobFiltering.scss";
+@import "components/_jobs.scss";
+@import "components/_editJob.scss";
+@import "components/_searchDropDown.scss";
+@import "components/_navbar.scss";
+@import "components/_login.scss";
+@import "components/_loader.scss";
+@import "components/_profileNav.scss";
+
+//pages
+@import "pages/_home";
+@import "pages/_jobList.scss";
+@import "pages/_jobDetail.scss";
+@import "pages/_profile.scss";
+

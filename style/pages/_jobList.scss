@@ -1,0 +1,17 @@
+.jobList{
+    @include clearfix;
+    @include flexContainer;
+    align-items: flex-start;
+    padding: 1rem;
+    .error{
+        max-width: 75%;
+        flex: 75%;
+        font-size: 2rem;
+        color: red;
+        padding: 1rem;
+    }
+    .loader{
+        max-width: 100%;
+        flex: 100%;
+    }
+}

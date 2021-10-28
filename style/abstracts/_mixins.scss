@@ -1,0 +1,39 @@
+@mixin clearfix {
+    &::after{
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+@mixin flexContainer{
+	display: flex;
+    margin: auto;
+    max-width: 90rem;
+    flex-wrap: wrap;
+	align-items: center;
+}
+
+@mixin  respond-to($size) {
+    @if $size == small{
+        @media screen and (max-width:$small){
+            @content;   
+        }
+    } 
+    @else if $size == medium{
+        @media screen and (max-width:$medium){
+            @content;   
+        }
+    } 
+	@else if $size == large{
+        @media screen and (max-width:$large){
+            @content;   
+        }
+    } 
+	@else if $size == xlarge{
+        @media screen and (max-width:$xlarge){
+            @content;   
+        }
+    }    
+}
+
+

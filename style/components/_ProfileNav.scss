@@ -1,0 +1,27 @@
+.profileNav{
+    background-color: $gray;
+    padding: 1rem;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    &__body{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 90rem;
+        margin: auto;
+        align-items: center;
+        &--link{
+            display: inline-block;
+            padding: 1rem;
+            color: $white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        &--profile{
+            margin-left: auto;
+            
+            color: $white;
+            float:right;
+        }
+    }
+    
+}
