@@ -1,4 +1,4 @@
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 
 const SearchDropDown = ({allList,name,val,handleSelect}) => {
     const [dropdown,setdropdown]=useState(false);

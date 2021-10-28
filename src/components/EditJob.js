@@ -1,8 +1,9 @@
 import axios from "axios";
-import { useState } from "react/cjs/react.development";
+
 import SearchDropDown from "./SearchDropDown";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useState } from "react";
 
 const EditJob = ({job,handleClose}) => {
     const [jobValue,setjobValue]=useState(job);
